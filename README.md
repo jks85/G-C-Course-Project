@@ -147,9 +147,7 @@ Again, see the **For the Grader** for details regarding the decision to present 
 
 For convenience a screenshot of a portion of `feature_averages_wide` is included below:
 
-![](C:/Users/jksim/Pictures/Screenshots/Screenshot 2024-08-27 180554.png)
-
-
+![Screenshot 2024-08-27 180554](https://github.com/user-attachments/assets/586d4b42-f866-4896-b340-4ed8920fdb99)
 
 ## Acknowledgements and References
 
