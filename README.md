@@ -61,10 +61,11 @@ The software and packages used for this project are listed below.
 
 ### Source Data
 
+The link below contains the source data. Clickinig the link will download the zip folder.
 
 * [Human Activity Recognition Using Smartphones Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-The source data links to a zip folder containing six (6) files:
+The zip folder contains six (6) files:
 
 1. activity_labels.txt
     + Activities were assigned a number. This document matches an activity with its corresponding number.
