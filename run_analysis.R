@@ -82,9 +82,12 @@ library(dplyr)
 requested_data = full_data%>%select(matches("Subject|Activity|-mean\\()|-std\\()")) 
 
 # Compute the mean for each of the selected feature variables for each subject based on the activity
+# feature_averages_wide is the tidy data set
+# wide has been included in the name to reflect the shape
+
 feature_averages_wide = requested_data%>%
   group_by(Subject,Activity)%>%
   summarize(across(`tBodyAcc-mean()-X`:`fBodyBodyGyroJerkMag-std()`,mean, .names = "mean_{.col}"))
 
-# feature_averages_wide is the tidy data set
-# wide has been included in the name to reflect the shape
+print(feature_averages_wide)
+
